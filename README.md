@@ -1,1 +1,0 @@
-Furko Satan Bot
