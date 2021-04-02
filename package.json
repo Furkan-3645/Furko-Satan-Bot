@@ -1,0 +1,14 @@
+{
+  "name": "furko-satan-bot",
+  "version": "0.0.0",
+  "description": "Bu Bot Sadece Furko Gazoz Satar",
+  "main": "bot",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Furkan Soyar",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
