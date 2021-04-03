@@ -13,7 +13,7 @@ Bot.on('ready', () => {
 
 Bot.on('message', mesaj => {
   if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('ooo hoşgeldi  ngn');
+    mesaj.channel.send('ooo hoşgeldi  ngfn');
   }
 });
 
