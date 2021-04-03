@@ -6,7 +6,7 @@ const Bot = new Discord.Client();
 
 Bot.on('ready', () => {
   console.log(`Bir Bot Çalışıyor = ${Bot.user.tag}`);
-  Bot.user.setActivity('Buraya botun durumunda yazmasını istediğin yazıyı yaz', { type: 'Buraya botun ne yapıyor olarak görünecek yazıyı yaz Örneğin "PLAYING"' })
+  Bot.user.setActivity('Furko Gazoz Satma Oyunu', { type: 'PLAYING' })
   .then(presence => console.log(`${Bot.user.tag} Botunun Durumu ${presence.activities[0].name}`))
   .catch(console.error);
 });
