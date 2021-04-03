@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 client.on('message', mesaj => {
   if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('ooo hoşgeldin dayı');
+    mesaj.channel.send('ooo hoşgeldin');
   }
 });
 
