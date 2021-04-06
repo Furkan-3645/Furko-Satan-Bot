@@ -19,7 +19,7 @@ Client.on('message', mesaj => {
 
 Client.on('message', Mesaj => {
     if (Mesaj.content.toLowerCase() === 'Mesaj') {
-      Mesaj.react('Verilecek tepki')
+      Mesaj.react('💍')
     }
 });
 
