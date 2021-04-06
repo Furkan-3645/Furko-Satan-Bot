@@ -23,4 +23,4 @@ Client.on('message', Mesaj => {
     }
 });
 
-Bot.login(kimlik);
+Client.login(kimlik);
