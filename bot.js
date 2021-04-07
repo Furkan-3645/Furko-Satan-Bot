@@ -13,13 +13,13 @@ Client.on('ready', () => {
 
 Client.on('message', mesaj => {
   if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('@everyone as');
+    mesaj.channel.send('as');
   }
 });
 
 Client.on('message', mesaj => {
   if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('@everyone sa');
+    mesaj.channel.send('sa');
   }
 });
 
