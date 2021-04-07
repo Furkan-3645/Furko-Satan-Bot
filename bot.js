@@ -17,4 +17,10 @@ Client.on('message', mesaj => {
   }
 });
 
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+
 Client.login(kimlik);
