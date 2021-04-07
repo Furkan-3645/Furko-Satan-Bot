@@ -12,14 +12,14 @@ Client.on('ready', () => {
 });
 
 Client.on('message', mesaj => {
-  if (mesaj.content === prefix + '@everyone sa') {
-    mesaj.channel.send('@everyone as');
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
   }
 });
 
 Client.on('message', mesaj => {
-  if (mesaj.content === prefix + '@everyone as') {
-    mesaj.channel.send(' sa');
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
   }
 });
 
