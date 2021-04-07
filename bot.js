@@ -13,80 +13,13 @@ Client.on('ready', () => {
 
 Client.on('message', mesaj => {
   if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
+    mesaj.channel.send('@everyone as');
   }
 });
 
 Client.on('message', mesaj => {
   if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
+    mesaj.channel.send('@everyone sa');
   }
 });
 
