@@ -19,7 +19,7 @@ Client.on('message', mesaj => {
 
 Client.on('message', mesaj => {
   if (mesaj.content === prefix + '@everyone as') {
-    mesaj.channel.send('@everyone sa');
+    mesaj.channel.send(' sa');
   }
 });
 
