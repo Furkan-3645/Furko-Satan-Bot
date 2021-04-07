@@ -23,4 +23,71 @@ Client.on('message', mesaj => {
   }
 });
 
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
+  }
+});
+
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
+  }
+});
+
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
+  }
+});
+
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
+  }
+});
+
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
+  }
+});
+
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'sa') {
+    mesaj.channel.send('as');
+  }
+});
+
+Client.on('message', mesaj => {
+  if (mesaj.content === prefix + 'as') {
+    mesaj.channel.send('sa');
+  }
+});
+
 Client.login(kimlik);
