@@ -18,7 +18,7 @@ Client.on('message', mesaj => {
 });
 
 Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
+  if (mesaj.content === prefix + 'şoıhj') {
     mesaj.channel.send('sa');
   }
 });
