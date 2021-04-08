@@ -6,7 +6,7 @@ const Client = new Discord.Client();
 
 Client.on('ready', () => {
   console.log(`Bir Bot Çalışıyor = ${Bot.user.tag}`);
-  Client.user.setStatus('invisible')
+  Client.user.setStatus('invisible');
 });
 
 Client.on('message', mesaj => {
@@ -21,4 +21,4 @@ Client.on('message', mesaj => {
   }
 });
 
-Client.login();
+Client.login(kimlik);
