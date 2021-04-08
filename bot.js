@@ -10,14 +10,9 @@ Client.on('ready', () => {
 });
 
 Client.on('message', mesaj => {
-    if (mesaj.content === prefix + 'sa') {
+    if (mesaj.content.ToLowerCase === prefix + 'sa') {
       mesaj.channel.send('as');
     }
   });
   
-  Client.on('message', mesaj => {
-    if (mesaj.content === prefix + 'as') {
-      mesaj.channel.send('sa');
-    }
-  });
 Client.login(kimlik);
