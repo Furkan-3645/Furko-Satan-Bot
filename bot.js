@@ -5,20 +5,19 @@ const Discord = require('discord.js');
 const Client = new Discord.Client();
 
 Client.on('ready', () => {
-  console.log(`Bir Bot Çalışıyor = ${Bot.user.tag}`);
+  console.log(`Bir Bot Çalışıyor = ${Client.user.tag}`);
   Client.user.setStatus('invisible');
 });
 
 Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'sa') {
-    mesaj.channel.send('as');
-  }
-});
-
-Client.on('message', mesaj => {
-  if (mesaj.content === prefix + 'as') {
-    mesaj.channel.send('sa');
-  }
-});
-
-Client.login();
+    if (mesaj.content === prefix + 'sa') {
+      mesaj.channel.send('as');
+    }
+  });
+  
+  Client.on('message', mesaj => {
+    if (mesaj.content === prefix + 'as') {
+      mesaj.channel.send('sa');
+    }
+  });
+Client.login(kimlik);
