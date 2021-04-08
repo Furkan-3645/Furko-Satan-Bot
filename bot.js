@@ -24,4 +24,4 @@ Client.on('message', mesaj => {
   }
 });
 
-Client.login(kimlik);
+Client.login();
