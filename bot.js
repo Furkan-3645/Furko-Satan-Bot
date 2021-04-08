@@ -6,7 +6,7 @@ const Client = new Discord.Client();
 
 Client.on('ready', () => {
   console.log(`Bir Bot Çalışıyor = ${Client.user.tag}`);
-  Client.user.setStatus('invisible');
+  Client.user.setStatus('online');
 });
 
 Client.on('message', mesaj => {
