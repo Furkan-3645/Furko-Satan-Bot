@@ -6,10 +6,7 @@ const Client = new Discord.Client();
 
 Client.on('ready', () => {
   console.log(`Bir Bot Çalışıyor = ${Bot.user.tag}`);
-  Client.user.setStatus('invisible');
-  Client.user.setActivity('Furko Gazoz Satma Oyunu', { type: 'PLAYING' })
-  .then(presence => console.log(`${Bot.user.tag} Botunun Durumu ${presence.activities[0].name}`))
-  .catch(console.error);
+  Client.user.setStatus('invisible')
 });
 
 Client.on('message', mesaj => {
@@ -24,4 +21,4 @@ Client.on('message', mesaj => {
   }
 });
 
-Client.login();
+Client.login(kimlik);
