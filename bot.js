@@ -10,7 +10,7 @@ Client.on('ready', () => {
 });
 
 Client.on('message', mesaj => {
-    if (mesaj.content.ToLowerCase === prefix + 'sa') {
+    if (mesaj.content.toLowerCase === prefix + 'sa') {
       mesaj.channel.send('as');
     }
   });
