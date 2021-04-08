@@ -10,8 +10,14 @@ Client.on('ready', () => {
 });
 
 Client.on('message', mesaj => {
-    if (mesaj.content.toLowerCase() === prefix + 'sa') {
-      mesaj.channel.send('as');
+    if (mesaj.content.toLowerCase() === prefix + '@!   !Demirel45.exe#1343 sa') {
+      mesaj.channel.send('@!   !Demirel45.exe#1343 as');
+    }
+  });
+
+Client.on('message', mesaj => {
+    if (mesaj.content.toLowerCase() === prefix + '@!   !Demirel45.exe#1343 as') {
+      mesaj.channel.send('@!   !Demirel45.exe#1343 sa');
     }
   });
   
