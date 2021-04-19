@@ -36,18 +36,19 @@ Bot.on('ready', () => {                                                         
 });                                                                                                                               //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Bot.on('message', async Mesaj => {                                                                                                //
-    if (Mesaj.content.startsWith('çal')) {                                                                                        //
-      const args = Mesaj.content.split(' ').slice(1)                                                                              //
-      const Bot_Mesajı = args.join(" ")                                                                                           //
-      if (!Bot_Mesajı) return Mesaj.channel.send("URL'yi Koymayı Unutunuz (Sanki Olmayan Aklını Okuyabiliyoruz)")                 //
-      if (Mesaj.member.voice.channel) {                                                                                           //
-        const bağlantı = await Mesaj.member.voice.channel.join();                                                                 //
-        const ytdl = require('ytdl-core');                                                                                        //
-        bağlantı.play(ytdl(`${Bot_Mesajı}`, { filter: 'audioonly' }))                                                             //
-      } else {                                                                                                                    //
-        Mesaj.channel.send("Bu Komut Sadece Sesli Kanalarda Kulanılabilir (İstersen Şarkıyıda Evine Gelip Söyiyeyim)");           //
-      }                                                                                                                           //
+  if (Mesaj.content.startsWith('çal')) {                                                                                          //
+    Mesaj.delete();                                                                                                               //
+    const args = Mesaj.content.split(' ').slice(1)                                                                                //
+    const Bot_Mesajı = args.join(" ")                                                                                             //
+    if (!Bot_Mesajı) return Mesaj.channel.send("URL'yi Koymayı Unutunuz (Sanki Olmayan Aklını Okuyabiliyoruz)")                   //
+    if (Mesaj.member.voice.channel) {                                                                                             //
+      const bağlantı = await Mesaj.member.voice.channel.join();                                                                   //
+      const ytdl = require('ytdl-core');                                                                                          //
+      bağlantı.play(ytdl(`${Bot_Mesajı}`, { filter: 'audioonly' }))                                                               //
+    } else {                                                                                                                      //
+      Mesaj.channel.send("Bu Komut Sadece Sesli Kanalarda Kulanılabilir (İstersen Şarkıyıda Evine Gelip Söyiyeyim)");             //
     }                                                                                                                             //
-  })                                                                                                                              //
+  }                                                                                                                               //
+})                                                                                                                                //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Bot.login(kimlik)
