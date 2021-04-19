@@ -6,7 +6,7 @@ const { type } = require('os');                                                 
 const { join } = require('path');                                                                                                 //
 const ytdl = require('ytdl-core')                                                                                                 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const kimlik = "ODI5NDA3MTM3ODgwMzQyNTY5.YG3rlw.iuU7uzsR5u__vfaIAF5xVZfAYQQ";                                                     //
+const kimlik = "ODI2ODIyODMxOTcwMTg5MzEy.YGSExA.eDi-v2QCnp8aq1poFXM8bSj9IVQ";                                                     //
 const Sahip_ID = "783333981483171840";                                                                                            //
 const ek = "";                                                                                                                    //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
