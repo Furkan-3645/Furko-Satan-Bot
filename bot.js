@@ -5,8 +5,8 @@ const { readdirSync, readSync } = require('fs');                                
 const { type } = require('os');                                                                                                   //
 const { join } = require('path');                                                                                                 //
 const ytdl = require('ytdl-core')                                                                                                 //
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const kimlik = "ODI2ODIyODMxOTcwMTg5MzEy.YGSExA.eDi-v2QCnp8aq1poFXM8bSj9IVQ";                                                     //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ODI2ODIyODMxOTcwMTg5MzEy.YGSExA.eDi-v2QCnp8aq1poFXM8bSj9IVQ
+const kimlik = "";                                                                                                                //
 const Sahip_ID = "783333981483171840";                                                                                            //
 const ek = "";                                                                                                                    //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
